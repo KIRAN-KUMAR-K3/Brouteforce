@@ -1,9 +1,9 @@
 # Brouteforce
 
-![GitHub stars](https://img.shields.io/github/stars/KIRAN-KUMAR-K3/Brouteforce?style=social)
-![GitHub forks](https://img.shields.io/github/forks/KIRAN-KUMAR-K3/Brouteforce?style=social)
+[![GitHub stars](https://img.shields.io/github/stars/KIRAN-KUMAR-K3/Brouteforce?style=social)](https://github.com/KIRAN-KUMAR-K3/Brouteforce/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/KIRAN-KUMAR-K3/Brouteforce?style=social)](https://github.com/KIRAN-KUMAR-K3/Brouteforce/network/members)
 
-A powerful and flexible brute-force attack tool for testing the security of your systems.
+Welcome to Brouteforce, your go-to tool for powerful and flexible brute-force attacks, designed to enhance the security of your systems.
 
 ## Table of Contents
 
@@ -14,24 +14,31 @@ A powerful and flexible brute-force attack tool for testing the security of your
 
 ## Introduction
 
-Brouteforce is an advanced brute-force attack tool designed to assess and enhance the security of your systems. It provides a flexible and efficient way to test the resilience of your passwords and authentication mechanisms.
+Brouteforce is an advanced brute-force attack tool crafted for assessing and fortifying the security of your systems. It empowers you to customize and efficiently test the resilience of your passwords and authentication mechanisms.
 
 ## Features
 
-- **Customizable Attack Parameters:** Tailor the brute-force attack to your specific needs with customizable parameters.
-- **Multi-Threaded Execution:** Improve performance by leveraging multi-threading for faster password testing.
-- **Extensible Plugin System:** Easily extend the functionality of Brouteforce with a plugin system for different attack vectors.
-- **Detailed Logging:** Keep track of the attack progress with comprehensive logging for analysis.
+- **Customizable Attack Parameters:** Tailor the brute-force attack to your specific needs with easily customizable parameters.
+- **Multi-Threaded Execution:** Boost performance through multi-threading for faster and more efficient password testing.
+- **Extensible Plugin System:** Expand Brouteforce's capabilities with a flexible plugin system supporting different attack vectors.
+- **Detailed Logging:** Keep a comprehensive log of the attack progress for thorough analysis.
 
 ## Installation
 
-Clone the repository and install the required dependencies:
+Get started by cloning the repository and installing the required dependencies:
 
 ```bash
 git clone https://github.com/KIRAN-KUMAR-K3/Brouteforce.git
 cd Brouteforce
 pip install -r requirements.txt
+```
 
-Usage
+## Usage
+
 Run Brouteforce with your desired parameters:
+
+```bash
 python brouteforce.py -t <target> -u <username> -w <wordlist> -p <port>
+```
+
+Feel the power of Brouteforce in securing your systems!
